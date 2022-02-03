@@ -1,0 +1,8 @@
+git config --global user.email "arman0987@gmail.com"
+git config --global user.name "RmanBD"
+git clone https://github.com/RmanBD/php-wlp.git
+git pull https://github.com/RmanBD/php-wlp.git
+
+git commit -m php-wlp folder upload"
+git add .
+git push

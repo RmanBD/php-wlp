@@ -1,0 +1,14 @@
+{
+  "name": "RmanBD/PHP_with_Laravel_practice/day_13",
+  "type": "project",
+  "description": "",
+  "keywords": [],
+  "license": "",
+  "require": {},
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "App\\" : "app/"
+    }
+  }
+}

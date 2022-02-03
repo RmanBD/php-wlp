@@ -1,0 +1,16 @@
+{
+  "name": "php/php",
+  "type": "project",
+  "description": "A very first project of my php class",
+  "license": "MIT",
+  "keyword": [],
+  "require": {},
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      //      App\\ for virtual dir,
+      //      app// for our project dir,
+      "App\\": "app//"
+    }
+  }
+}

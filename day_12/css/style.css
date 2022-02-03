@@ -1,0 +1,45 @@
+.slider-height{
+    height: 650px;
+
+}
+
+.my-caption{
+    background: rgba(0,0,0,0.3);
+    margin-bottom: 200px;
+}
+
+.h-40{height: 40px}
+.h-50{height: 50px}
+.h-200{height: 200px}
+.h-250{height: 250px}
+.h-275{height: 275px}
+.h-600{height: 600px}
+
+
+.card-default-height{
+    height: 300px;
+}
+
+.card-big-img-height{
+    height: 300px;
+}
+
+.fs-18{
+    font-size: 18px;
+}
+.fs-16{
+    font-size: 16px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-13{
+    font-size: 13px;
+}
+.b-b-1{
+    border-bottom: 1px solid lightgray !important;
+}
+
+.cstm-img-hvr:hover{
+    opacity: .7;
+}
