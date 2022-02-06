@@ -4,7 +4,7 @@
 namespace App\classes;
 
 
-class Persion
+class Operator
 {
 
 }
