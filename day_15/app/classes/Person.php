@@ -21,6 +21,6 @@ class Person
     }
     private function country()
     {
-        echo "Bangladesh";
+       echo 'bangladesh';
     }
 }
