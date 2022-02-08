@@ -43,3 +43,94 @@
 .cstm-img-hvr:hover{
     opacity: .7;
 }
+
+.h-200{
+    height: 200px;
+}
+
+.h-600{
+    height: 600px;
+}
+.h-250{
+    height: 250px;
+}
+.h-50{
+    height: 50px;
+}
+.h-100{
+    height: 100px;
+}
+.h-300{
+    height: 300px;
+}
+.h-400{
+    height: 200px;
+}
+.card-default-height{
+    height: 250px;
+}
+.card-big-img{
+    height: 350px;
+}
+
+.cad{
+    background-color: rgba(0,0,0,0.3);
+}
+
+.fs-19{
+    font-size: 19px;
+}
+.fs-13{
+    font-size: 13px;
+}
+.fs-16{
+    font-size: 16px;
+}
+.height{
+    height: 600px;
+}
+
+.h-210{
+    height: 210px;
+}
+.hr-style{
+    border-bottom: 1px solid  #0059b3;
+}
+.fs-11{
+    font-size: 11px;
+}
+.card-img-height{
+    height: 60px;
+}
+.small-img{
+    height: 60px;
+    width: 100%;
+}
+.card-img-height1{
+    height: 150px;
+}
+
+
+
+/*.card-custom-img:hover{*/
+/*    opacity: 0.5;*/
+/*}*/
+
+/*.parent{*/
+/*    position: relative;*/
+/*}*/
+/*.parent:hover .overlay{*/
+/*    opacity: 1;*/
+/*    bottom: 0;*/
+/*}*/
+/*.overlay{*/
+/*    background-color: rgba(57,119,175,0.8);*/
+/*    height: 275px;*/
+/*    width: 100%;*/
+/*    transition: 0.3s;*/
+/*    position: absolute;*/
+/*    bottom: 100%;*/
+/*    opacity: 0;*/
+
+/*}*/
+
