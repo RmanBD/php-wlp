@@ -29,6 +29,16 @@ class Operator
         echo  $this->x++;
         echo '<br/>';
         echo $this->x++;
+        echo  $this->x++;
+        echo '<br/>';
+        echo  $this->x++;
+        echo '<br/>';
+        echo $this->x++;
+        echo  $this->x++;
+        echo '<br/>';
+        echo  $this->x++;
+        echo '<br/>';
+        echo $this->x++;
 //        echo $this->y++
 //        echo 'hello wordl';
 //        echo $this->x + $this->y;       // 30
