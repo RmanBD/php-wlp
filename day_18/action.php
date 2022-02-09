@@ -15,5 +15,6 @@ if (isset($_GET['pages']))
 elseif ($_POST['btn'])
 {
     $word = new Word($_POST);
-    $word->index();
+    $result = $word->index();
+    include 'pages/home.php';
 }
