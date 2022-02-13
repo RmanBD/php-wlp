@@ -5,45 +5,34 @@
         <div class="row">
             <div class="col-md-8 mx-auto">
                 <div class="card">
-
                     <div class="card-header">
-                        <div class="text-capitalize"><h3>Calculator</h3></div>
+                        <h4>Series</h4>
                     </div>
-
                     <div class="card-body">
-                        <form action="action.php" method="post">
+                        <form action="action.php" method="POST">
                             <div class="form-group row">
-                                <label for="" class="col-md-4 col-form-label">FirstNumber</label>
+                                <label for="" class="col-md-4 col-form-label">First Number</label>
                                 <div class="col-md-8">
-                                    <input type="number" class="form-control" name="first_number">
+                                    <input type="number" name="first_number" class="form-control">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label for="" class="col-md-4 col-form-label">Last Number</label>
                                 <div class="col-md-8">
-                                    <input type="number" class="form-control" name="last_number">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <label for="" class="col-md-4 col-form-label">Options</label>
-                                <div class="col-md-8">
-                                    <label for=""><input type="radio" name="option" value="+"> add</label>
-                                    <label for=""><input type="radio" name="option" value="-"> sub</label>
-                                    <label for=""><input type="radio" name="option" value="*"> mul</label>
-                                    <label for=""><input type="radio" name="option" value="/"> div</label>
-                                    <label for=""><input type="radio" name="option" value="%"> mod</label>
+                                    <input type="number" name="last_number" class="form-control">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label for="" class="col-md-4 col-form-label">Result</label>
                                 <div class="col-md-8">
-                                    <input type="text" readonly class="form-control" value="<?php echo isset($result) ? $result :'' ?>">
+                                    <!--                                   <input type="text" readonly value="--><?php //echo isset($result) ? $result : ''; ?><!--" class="form-control">-->
+                                    <textarea name="" class="form-control" id="" readonly cols="30" rows="10"><?php echo isset($result)? : "$givenWord\n$wordCount\n$characterCount"; ?></textarea>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label for="" class="col-md-4 col-form-label"></label>
                                 <div class="col-md-8">
-                                    <input type="submit" name="btn" value="Get result" class="btn btn-success">
+                                    <input type="submit" name="seriesBtn" class="btn btn-outline-success btn-block form-control" value="Get Result">
                                 </div>
                             </div>
                         </form>
