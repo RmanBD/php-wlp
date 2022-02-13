@@ -16,5 +16,4 @@ if (isset($_GET['pages']))
     $calculator = new Calculator($_POST);
     $result = $calculator->index();
     include "pages/home.php";
-
 }
