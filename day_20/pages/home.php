@@ -27,11 +27,11 @@
                             <div class="form-group row">
                                 <label for="" class="col-md-4 col-form-label">Options</label>
                                 <div class="col-md-8">
-                                    <label for=""><input type="radio" name="option" value="+"> add</label>
-                                    <label for=""><input type="radio" name="option" value="-"> sub</label>
-                                    <label for=""><input type="radio" name="option" value="*"> mul</label>
-                                    <label for=""><input type="radio" name="option" value="/"> div</label>
-                                    <label for=""><input type="radio" name="option" value="%"> mod</label>
+                                    <label for=""><input type="radio" name="option" value="+">add</label>
+                                    <label for=""><input type="radio" name="option" value="-">sub</label>
+                                    <label for=""><input type="radio" name="option" value="*">mul</label>
+                                    <label for=""><input type="radio" name="option" value="/">div</label>
+                                    <label for=""><input type="radio" name="option" value="%">mod</label>
                                 </div>
                             </div>
                             <div class="form-group row">

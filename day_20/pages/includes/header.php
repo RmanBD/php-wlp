@@ -13,7 +13,7 @@
     <div class="container">
         <a href="action.php?pages=home" class="navbar-brand">Logo</a>
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a href="action.php?pages=home" class="nav-link">Series</a></li>
+            <li class="nav-item"><a href="action.php?pages=home" class="nav-link">Calculator</a></li>
             <li class="nav-item"><a href="action.php?pages=all-product" class="nav-link">All Product</a></li>
         </ul>
     </div>
