@@ -75,4 +75,14 @@ class Products
         }
         return $this->result;
     }
+
+    public function getProductsDetails($productId)
+    {
+        $this->allProducts = $this->index();
+        foreach ($this->allProducts as $product) {
+            if ($product['id'] == $productId) {
+                return $product;
+            }
+        }
+    }
 }
