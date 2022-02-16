@@ -24,7 +24,7 @@ if (isset($_GET['pages'])) {
         $category = new Category();
         $categories = $category->category();
         $product = new Products();
-        $productDetaails = $product->getProductDetails($_GET['']);
+        $productDetails = $product->getProductDetails($_GET['']);
         include 'pages/productDetails.php';
     }
 }
