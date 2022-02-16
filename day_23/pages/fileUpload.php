@@ -1,4 +1,4 @@
-<?php include 'pages/includes/header.php'; ?>
+<?php include "pages/includes/header.php"; ?>
 
 <section class="py-5">
     <div class="container">
@@ -6,11 +6,16 @@
             <div class="col-md-8 mx-auto">
                 <div class="card">
                     <div class="card-header">
-                        <h3 class="card-title">input student information</h3>
+                        <h3 class="card-title">Input Student Information Carefully</h3>
                     </div>
                     <div class="card-body">
-                        <div >
-                            <form action="action.php" method="post" enctype="multipart/form-data">
+
+                        <?php if (isset($message)) { ?>
+                            <h2 class="text-success"><?php echo $message; ?></h2>
+                        <?php } ?>
+
+                        <div>
+                            <form action="action.php" method="POST" enctype="multipart/form-data">
                                 <div class="form-group row">
                                     <label for="" class="col-md-4 col-form-label">Student Name</label>
                                     <div class="col-md-8">
@@ -24,7 +29,7 @@
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label for="" class="col-md-4 col-form-label">Phone</label>
+                                    <label for="" class="col-md-4 col-form-label">Phone Number</label>
                                     <div class="col-md-8">
                                         <input type="number" name="phone" class="form-control">
                                     </div>
@@ -32,14 +37,15 @@
                                 <div class="form-group row">
                                     <label for="" class="col-md-4 col-form-label">Image</label>
                                     <div class="col-md-8">
-                                        <input type="file" name="image" class="" accept="image/*">
+                                        <input type="file" name="image" accept="image/*">
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <label for="" class="col-md-4 col-form-label"></label>
                                     <div class="col-md-8">
-                                        <input type="submit" name="btn" class="btn btn-outline-success btn-block">
+                                        <input type="submit" name="btn" class="btn btn-outline-success btn-block" value="Save student info">
                                     </div>
+
                                 </div>
                             </form>
                         </div>
@@ -50,4 +56,5 @@
     </div>
 </section>
 
-<?php include 'pages/includes/footer.php'; ?>
+
+<?php include "pages/includes/footer.php"; ?>
