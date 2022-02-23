@@ -7,15 +7,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .arif{
+            margin-top: 120px;
+        }
+    </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <div class="container">
-        <a href="action.php?pages=home" class="navbar-brand">Logo</a>
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a href="action.php?pages=all-products" class="nav-link">File Upload</a></li>
-            <li class="nav-item"><a href="action.php?pages=all-products" class="nav-link">View Students</a></li>
 
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container">
+        <a href="action.php?pages=home" class="navbar-brand">LoGo</a>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a href="action.php?pages=home" class="nav-link">File Upload</a></li>
+            <li class="nav-item"><a href="action.php?pages=view" class="nav-link">View Student</a></li>
+            <li class="nav-item"><a href="action.php?pages=logout" class="nav-link">Log Out</a></li>
         </ul>
     </div>
 </nav>

@@ -2,8 +2,7 @@
 
 require_once 'vendor/autoload.php';
 
-//use App\classes\Home;
-use App\classes\FileUpload;
+use App\classes\Home;
 
-$home = new FileUpload();
+$home = new Home();
 $home->index();
